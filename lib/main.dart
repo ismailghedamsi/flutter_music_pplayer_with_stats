@@ -54,8 +54,8 @@ class _MyHomePageState extends State<MyHomePage> with SingleTickerProviderStateM
         body: new TabBarView(
             controller: controller,
             children: <Widget>[
+              new trackspage.Tracks(),
           new artistPage.ArtistPage(),
-          new trackspage.TracksPage(),
           new albumspage.AlbumsPage()
         ]
         ),
